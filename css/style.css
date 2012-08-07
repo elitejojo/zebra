@@ -173,17 +173,13 @@ li a:hover, .meta a:hover {
     content: "";
     display: block;
     background: #b6b9c4;
-    border: 1px solid #dddee0;
-    border-radius: 8px;
-    width: 12px;
-    height: 12px;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    width: 8px;
+    height: 8px;
     position: absolute;
     top: 8px;
     left: -8px;
-    box-shadow: inset #fff 2px 0 0, 
-                inset #fff -2px 0 0, 
-                inset #fff 0 2px 0, 
-                inset #fff 0 -2px 0;
 }
 
 .meta {
@@ -203,7 +199,6 @@ li a:hover, .meta a:hover {
   
 .link:after {
   background: #2582c6;
-  border: 1px solid #89bde1;
 }
 
 .link .meta a { color:#2582c6; }
@@ -216,7 +211,6 @@ li a:hover, .meta a:hover {
   
 .quote:after {
   background: #87bc35;
-  border: 1px solid #b4cd8e;
 }
 
 .quote .meta a { color:#638927; }
